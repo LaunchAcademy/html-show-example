@@ -9,74 +9,96 @@
       content="Learn about the HTML Show's Instructor: Dan Pickett">
   </head>
   <body>
-    <h1>Hi! I'm Dan Pickett</h1>
+    <header>
+      <h1>Hi! I'm Dan Pickett</h1>
 
-    <p>
-      I live in Bridgewater, MA with my wife Shannon
-      and my daughter Ella.
-    </p>
+      <p>
+        I live in Bridgewater, MA with my wife Shannon
+        and my daughter Ella.
+      </p>
 
-    <p>
-      We also have two great dogs,
-      <strong>Linux</strong> and Apple.
-      They are <em>Goldendoodles</em>.
-    </p>
+      <p>
+        We also have two great dogs,
+        <strong>Linux</strong> and Apple.
+        They are <em>Goldendoodles</em>.
+      </p>
+    </header>
+    <nav>
+      <h3>Important <span id="link-text">Links<span>wonky markup</span></span></h3>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li>
+          Twitter Profile: <a href="https://twitter.com/dpickett"
+            target="_blank">Twitter</a>
+        </li>
+        <li>
+          Github Profile: <a href="https://github.com/dpickett"
+            target="_blank">GitHub</a>
+        </li>
+      </ul>
+    </nav>
+
+    <aside>
+      Hey! Check us out at <a href="https://launchacademy.com">Launch Academy</a>!
+    </aside>
 
     <img src="http://d21vu35cjx7sd4.cloudfront.net/dims3/MMAH/crop/0x0%2B0%2B0/resize/645x380/quality/90/?url=http%3A%2F%2Fs3.amazonaws.com%2Fassets.prod.vetstreet.com%2Fa5%2F187ce0a8b411e0a0d50050568d634f%2Ffile%2Fgoldendoodle-3-645mk070111.jpg" alt="Goldendoodle Puppy">
+    <a name="about"></a>
+    <section id="hobbies" class="about-list">
+      <h2>Hobbies</h2>
 
-    <h2>Hobbies</h2>
+      <p>When I'm not coding or teaching, I like to:</p>
 
-    <p>When I'm not coding or teaching, I like to:</p>
+      <ul>
+        <li>Play Hockey</li>
+        <li>Kitesurf</li>
+        <li>Read</li>
+        <li>Dining Out</li>
+      </ul>
+    </section>
 
-    <ul>
-      <li>Play Hockey</li>
-      <li>Kitesurf</li>
-      <li>Read</li>
-      <li>Dining Out</li>
-    </ul>
+    <section id="goals" class="about-list">
+      <h2>Goals</h2>
 
-    <h2>Goals</h2>
+      <p>
+        My goals for the course are to:
+      </p>
 
-    <p>
-      My goals for the course are to:
-    </p>
+      <ol>
+        <li>Get to know as many students as possible</li>
+        <li>
+          Inspire those interested in coding to start
+          and continue learning
+        </li>
+        <li>
+          Learn about livestreaming and this
+          type of free course
+        </li>
+      </ol>
+    </section>
 
-    <ol>
-      <li>Get to know as many students as possible</li>
-      <li>
-        Inspire those interested in coding to start
-        and continue learning
-      </li>
-      <li>
-        Learn about livestreaming and this
-        type of free course
-      </li>
-    </ol>
 
-    <h2>Social Media</h2>
+    <a name="favorites"></a>
+    <section id="favorite-quotes" class="favorite-things">
+      <h2>Favorite Quote</h2>
 
-    <ul>
-      <li>
-        Twitter Profile: <a href="https://twitter.com/dpickett"
-          target="_blank">Twitter</a>
-      </li>
-      <li>
-        Github Profile: <a href="https://github.com/dpickett"
-          target="_blank">GitHub</a>
-      </li>
-    </ul>
+      <!-- TODO: actually document my favorite quote -->
+      <blockquote>
+        I think, therefore I am.
+      </blockquote>
+    </section>
 
-    <h2>Favorite Quote</h2>
+    <section id="favorite-math" class="favorite-things">
+      <h2>Favorite Math</h2>
 
-    <!-- TODO: actually document my favorite quote -->
-    <blockquote>
-      I think, therefore I am.
-    </blockquote>
+      <ol>
+        <li>1 + 1 &gt; 1 &lt; &quot;</li>
+      </ol>
+    </section>
 
-    <h2>Favorite Math</h2>
-
-    <ol>
-      <li>1 + 1 &gt; 1 &lt; &quot;</li>
-    </ol>
+    <footer>
+      <p><em>&copy; 2016 Dan Pickett</em></p>
+    </footer>
   </body>
 </html>
