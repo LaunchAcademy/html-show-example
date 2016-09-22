@@ -1,4 +1,6 @@
 # Learning Objectives
 
-* Highlight the important features of HTML5 Boilerplate
-* Justify the need for standards and conventions
+* Use floats and clears to position an element
+* Use absolute positioning to position a call to action
+* Use relative positioning to position an image caption
+* Use z-index to layer elements
