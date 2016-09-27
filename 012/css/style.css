@@ -36,12 +36,29 @@ h2 {
 }
 
 aside {
-  width: 400px;
   padding: 20px 10px;
-  border: 2px dotted #ED1A7B;
+  width: 250px;
+  background-color: #ED1A7B;
+  color: white;
+  font-weight: bold;
   text-align: center;
   vertical-align: middle;
-  margin: 10px 25%;
+  margin: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+}
+
+aside a:hover {
+  text-decoration: underline;
+}
+
+.float-container {
 }
 
 footer > div > p {
@@ -88,5 +105,56 @@ nav a:hover {
 }
 
 #puppy-image {
+  width: 100%;
+}
+
+#puppy-image:hover {
+  z-index: 1000;
+}
+
+.image-container {
+  position: relative;
+  top: 0;
+  left: 0;
   width: 400px;
+}
+
+.image-caption {
+  background-color: #ED1A7B;
+  opacity: 0.6;
+  color: white;
+  font-style: italic;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.image-caption {
+  z-index: 1
+}
+
+.image-caption-text {
+  margin: 10px;
+  display: block;
+}
+
+#yellow {
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 500;
+}
+
+#green {
+  width: 300px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
