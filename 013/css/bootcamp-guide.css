@@ -1,0 +1,35 @@
+#bootcamp-guide-panel {
+  background-color: #1c2224;
+  color: #777777
+}
+
+#bootcamp-guide-panel h3 {
+  font-weight: normal;
+}
+
+#bootcamp-guide-panel span {
+  font-weight: bold;
+}
+
+.fancy-email-box input.email {
+  background: none;
+  border: none;
+  box-shadow: none;
+  font-family: "quatro-slab", sans-serif;
+  font-size: 18px;
+  color: #eeeeee;
+  height: 50px;
+}
+
+.btn {
+  background-color: #84ce15;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+fieldset {
+  padding: 10px;
+  border: 1px solid #555;
+  background-color: #272C2E;
+}
