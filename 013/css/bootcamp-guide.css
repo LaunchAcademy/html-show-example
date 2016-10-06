@@ -1,3 +1,15 @@
+@media screen and (min-width: 1000px) {
+  #bootcamp-guide-form-container {
+    width: 50%;
+    display: inline-block;
+  }
+
+  #bootcamp-guide-panel h3 {
+    width: 47%;
+    display: inline-block;
+  }
+}
+
 #bootcamp-guide-panel {
   background-color: #1c2224;
   color: #777777
@@ -5,6 +17,12 @@
 
 #bootcamp-guide-panel h3 {
   font-weight: normal;
+  color: #eeeeee;
+  padding: 10px;
+}
+
+#bootcamp-guide-form-container {
+  padding: 10px 0;
 }
 
 #bootcamp-guide-panel span {
@@ -19,13 +37,15 @@
   font-size: 18px;
   color: #eeeeee;
   height: 50px;
+  width: 75%;
 }
 
 .btn {
   background-color: #84ce15;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 1%;
+  width: 24%;
 }
 
 fieldset {
