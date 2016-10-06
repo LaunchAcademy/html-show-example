@@ -1,0 +1,24 @@
+/*
+#CCBC4A Gold
+#999684 Grey
+#FFD276 Light gold
+#B6E5FF Light blue
+#4AC0CC aqua
+*/
+
+body {
+  margin: 1rem;
+}
+
+.social-media-profiles {
+  padding: 0;
+  margin: 20px 0;
+}
+.social-media-profiles li {
+  display: inline-block;
+  list-style: none;
+}
+
+.social-media-profiles a {
+  color: #999684;
+}
