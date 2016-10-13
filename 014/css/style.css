@@ -6,8 +6,12 @@
 #4AC0CC aqua
 */
 
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 1rem;
+  font-size: 12px;
 }
 
 .social-media-profiles {
@@ -21,4 +25,72 @@ body {
 
 .social-media-profiles a {
   color: #999684;
+}
+
+.resume-component {
+  /*background-color: #999684;*/
+  background-color: #eee;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #999684;
+}
+
+.resume-component h3 {
+  background-color: #4AC0CC;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+h1 {
+  color: #FFD276;
+  margin: 0.25rem 0 0;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 0;
+  color: #4AC0CC
+}
+
+.resume-detail {
+  margin-left: 0.75rem;
+}
+
+address {
+  margin-bottom: 2rem;
+}
+
+dt, dd {
+  display: inline-block;
+  float: left;
+}
+
+dt {
+  font-weight: bold;
+  color: #FFD276;
+  text-decoration: none;
+  font-style: normal;
+  clear: left;
+  width: 25%;
+  text-align: right;
+}
+
+dd a {
+  text-decoration: none;
+  color: #4AC0CC;
+  font-style: normal;
+}
+
+dd {
+  margin-left: 0;
+  clear: right;
+  width: 75%;
+  padding-left: 0.5rem;
+}
+
+.profile-text {
+  margin-left: 0.75rem;
 }
