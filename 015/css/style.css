@@ -40,6 +40,7 @@ body {
   font-weight: bold;
   padding: 20px;
   width: 25%;
+  min-width: 100px;
   text-align: center;
 }
 
@@ -55,8 +56,12 @@ h2 {
   color: #4AC0CC
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 .resume-detail {
-  margin-left: 0.75rem;
+  margin: 0 0.75rem;
 }
 
 address {
@@ -93,4 +98,38 @@ dd {
 
 .profile-text {
   margin-left: 0.75rem;
+}
+
+#programming-skills {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#programming-skills p {
+  font-weight: bold;
+  color: #888;
+  margin: 0 0 0.3rem;
+}
+
+#programming-skills li {
+  margin-bottom: 0.5rem;
+}
+
+.programming-skill {
+  width: 100%;
+  background-color: #888;
+}
+
+.skill-level {
+  display: block;
+  color: white;
+  text-align: right;
+  font-weight: bold;
+  background-color: #CCBC4A;
+  padding-right: 2px;
+}
+
+.alt {
+  background-color: #4AC0CC
 }
