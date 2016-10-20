@@ -130,6 +130,58 @@ dd {
   padding-right: 2px;
 }
 
-.alt {
+.skill-level.alt {
   background-color: #4AC0CC
+}
+
+#methodologies {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#methodologies li {
+  min-height: 1.6rem;
+  vertical-align: middle;
+}
+#methodologies p {
+  vertical-align: middle;
+  min-height: 1.6rem;
+  font-weight: bold;
+  font-size: 0.6rem;
+  color: #888;
+  display: inline-block;
+  min-width: 100px;
+  max-width: 150px;
+  text-align: right;
+  margin: 0 0.4rem 0;
+}
+
+#methodologies .proficiency-indicators {
+  color: #FFD276;
+  font-size: 1.5rem;
+}
+
+#methodologies .proficiency-indicators.alt {
+  color: #B6E5FF;
+}
+
+h4 {
+  color: white;
+  font-weight: bold;
+  background-color: #888;
+  border-radius: 3px 0 0 3px;
+}
+
+h4.experience span {
+  padding: 5px 0;
+}
+
+h4.experience i {
+  padding: 5px 0;
+  margin: 0 10px 0 0;
+  border-radius: 3px;
+  background-color: #CCBC4A;
+  min-width: 20px;
+  text-align: center;
 }
