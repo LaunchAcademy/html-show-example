@@ -158,15 +158,15 @@ dd {
 }
 
 #methodologies .proficiency-indicators {
-  color: #FFD276;
+  color: #CCBC4A;
   font-size: 1.5rem;
 }
 
 #methodologies .proficiency-indicators.alt {
-  color: #B6E5FF;
+  color: #4AC0CC;
 }
 
-h4 {
+h4.experience {
   color: white;
   font-weight: bold;
   background-color: #888;
@@ -184,4 +184,73 @@ h4.experience i {
   background-color: #CCBC4A;
   min-width: 20px;
   text-align: center;
+}
+
+.education h4.experience i {
+  background-color: #4AC0CC;
+}
+
+p.location, p.duration {
+  font-weight: bold;
+  color: #888;
+  margin: 0.1rem 0;
+  font-size: 0.6rem;
+}
+
+p.duration {
+  margin-bottom: 0;
+}
+
+p.location {
+  margin-top: 0;
+}
+
+.professional-experience h5 {
+  margin: 0.1rem 0;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.professional-experience h6 {
+  margin: 0 0 0.1rem 0;
+  font-style: italic;
+  color: #CCBC4A;
+  font-weight: normal;
+  font-size: 0.6rem;
+}
+
+.professional-experience i, .professional-experience .experience-detail {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.professional-experience span.bullet {
+  width: 8%;
+  color: white;
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+span.bullet .fa-circle {
+  color: #CCBC4A;
+}
+
+.education span.bullet .fa-circle {
+  color: #4AC0CC;
+}
+
+span.bullet .fa-chevron-right {
+  color: white;
+  margin-left: 0.05rem;
+}
+
+.professional-experience .experience-detail {
+  width: 90%;
+}
+
+.professional-experience ul {
+  margin-left: 1.0rem;
+  padding: 0;
+  list-style-position: outside;
+  font-size: 0.6rem;
 }
