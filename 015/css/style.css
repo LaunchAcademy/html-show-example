@@ -14,13 +14,22 @@ body {
   font-size: 12px;
 }
 
+@media (min-width: 500px) {
+  body {
+    margin: 1rem 10%;
+  }
+}
+
 .social-media-profiles {
+  text-align: right;
   padding: 0;
   margin: 20px 0;
+  font-size: 1.2rem;
 }
 .social-media-profiles li {
   display: inline-block;
   list-style: none;
+  margin-left: 0.4rem;
 }
 
 .social-media-profiles a {
@@ -32,16 +41,41 @@ body {
   background-color: #eee;
   padding-bottom: 2rem;
   border-bottom: 1px solid #999684;
+  position: relative;
 }
 
-.resume-component h3 {
+.resume-component h3, .resume-component i.section-icon {
   background-color: #4AC0CC;
   color: white;
   font-weight: bold;
-  padding: 20px;
-  width: 25%;
-  min-width: 100px;
+  padding: 15px 20px;
   text-align: center;
+  font-size: 1.1rem;
+  min-height: 55px;
+  vertical-align: middle;
+}
+
+.resume-component h3 {
+  min-width: 100px;
+  max-width: 125px;
+  margin-top: 0;
+}
+
+.resume-component i.section-icon {
+  display: none;
+  /*padding-top: 20px;*/
+  font-size: 1.5rem;
+  border-right: 1px solid white;
+  text-align: center;
+}
+
+@media (min-width: 580px) {
+  .resume-component i.section-icon {
+    display: inline-block;
+    width: 60px;
+    position: absolute;
+    left: -60px;
+  }
 }
 
 h1 {
@@ -64,6 +98,26 @@ h4 {
   margin: 0 0.75rem;
 }
 
+.resume-detail .profile-photo {
+  display: none;
+  width: 90px;
+  height: 100px;
+  font-size: 4.5rem;
+  background-color: #999;
+  text-align: center;
+}
+
+div.name-container {
+  display: inline-block;
+  margin-left: 0.8rem;
+}
+
+@media (min-width: 560px) {
+  .resume-detail .profile-photo {
+    display: inline-block
+  }
+}
+
 address {
   margin-bottom: 2rem;
 }
@@ -81,6 +135,13 @@ dt {
   clear: left;
   width: 25%;
   text-align: right;
+}
+
+@media (min-width: 560px) {
+  dt {
+    text-align: left;
+    max-width: 90px;
+  }
 }
 
 dd a {
