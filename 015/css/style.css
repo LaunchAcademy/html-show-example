@@ -94,6 +94,10 @@ h4 {
   text-transform: uppercase;
 }
 
+.experience-container {
+  background-color: #eee
+}
+
 .resume-detail {
   margin: 0 0.75rem;
 }
@@ -212,7 +216,7 @@ dd {
   font-size: 0.6rem;
   color: #888;
   display: inline-block;
-  min-width: 100px;
+  min-width: 50px;
   max-width: 150px;
   text-align: right;
   margin: 0 0.4rem 0;
@@ -225,6 +229,44 @@ dd {
 
 #methodologies .proficiency-indicators.alt {
   color: #4AC0CC;
+}
+
+@media (min-width: 760px) {
+  .experience-container {
+    border-bottom: 1px solid #999684;
+  }
+  .resume-component.history, .resume-component.sidebar {
+    vertical-align: top;
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  .resume-component.history {
+    max-width: 419px;
+  }
+
+  .resume-component.sidebar {
+    max-width: 199px;
+    margin-top: 60px;
+  }
+
+  .resume-component.sidebar ul li {
+    font-size: 0.4rem;
+    margin-bottom: 0.4rem;
+  }
+
+  #methodologies p {
+    display: block;
+    font-size: 0.6rem;
+    line-height: 0.6rem;
+    text-align: left;
+    margin-left: 0;
+    min-height: auto;
+  }
+
+  #methodologies .proficiency-indicators {
+    font-size: 1.4rem;
+  }
 }
 
 h4.experience {
@@ -247,7 +289,7 @@ h4.experience i {
   text-align: center;
 }
 
-.education h4.experience i {
+h4.experience.education i {
   background-color: #4AC0CC;
 }
 
