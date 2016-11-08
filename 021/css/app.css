@@ -1,0 +1,127 @@
+/*
+light blue background: #E5F3F4
+aqua: #37becc
+pink: #ed1a7b
+*/
+
+body {
+  background-color: #E5F3F4;
+  color: #777777
+}
+
+#overview {
+  margin-bottom: 2rem;
+}
+
+#overview p {
+  text-align: center;
+}
+
+#masthead {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5rem 0.5rem;
+  margin-bottom: 2rem;
+}
+
+#masthead h1 {
+  font-weight: 800;
+}
+
+h3 {
+  color: #37becc;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  margin: 0.5rem 1.5rem 1rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.episode-thumbnail {
+  position: relative;
+  text-align: left;
+  margin: 0 auto;
+}
+
+@media (min-width: 400px) and (max-width: 639px){
+  .episode-thumbnail img {
+    width: 490px;
+  }
+}
+
+.fa-circle {
+  color: #ed1a7b;
+  opacity: 0.7;
+}
+
+.fa-play {
+  color: white;
+  margin-left: 0.1rem;
+  font-size: 1.0rem;
+}
+
+.icon-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  font-size: 1.0rem;
+  width: 40px;
+  text-align: center;
+  margin: 0.5rem 0.5rem;
+}
+
+h4 {
+  margin: 0.6rem 0;
+  color: #37becc;
+  font-weight: 500;
+}
+
+
+.episode hr {
+  border: none;
+}
+
+@media (max-width: 640px) {
+  .episode {
+    text-align: center;
+  }
+
+  .episode hr {
+    border-bottom: 1px solid #ccc;
+    margin: 0 2.0rem;
+  }
+}
+.episode {
+  margin-bottom: 20px;
+}
+
+.episode p {
+  font-size: 0.5rem;
+  font-weight: 600;
+}
+
+.episode p.timestamp {
+  font-weight: 900;
+  color: #333;
+}
+
+.view-more a.button {
+  width: 100%;
+  color: #37becc;
+  background-color: #E5F3F4;
+  border: 2px solid #37becc;
+  font-weight: 900;
+}
+
+@media (min-width: 640px) {
+  .view-more {
+    text-align: center;
+  }
+
+  .view-more a.button {
+    width: auto;
+    padding: 1rem 2.5rem;
+  }
+}
