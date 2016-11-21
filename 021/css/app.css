@@ -34,13 +34,17 @@ body {
   font-size: 1.25rem;
 }
 
-#overview h3 {
+.main-page-title h3, .main-page-title h2 {
   color: #37becc;
   font-weight: 600;
   border-bottom: 1px solid #ccc;
   margin: 0.5rem 1.5rem 1rem;
   padding-bottom: 1rem;
   font-size: 2rem;
+}
+
+.main-page-title h2 {
+  font-size: 1.5rem;
 }
 
 .episode-thumbnail {
@@ -174,7 +178,7 @@ p.timestamp {
   margin-top: 1rem;
 }
 
-#main-episode-navigator h3 {
+#main-episode-navigator h4 {
   color: #777777;
   text-transform: uppercase;
   font-size: 0.8rem;
@@ -182,7 +186,7 @@ p.timestamp {
   font-weight: bold;
 }
 
-#main-episode-navigator h2 {
+#main-episode-navigator h3 {
   color: #37becc;
   font-weight: bold;
   font-size: 1.15rem;
@@ -198,4 +202,57 @@ p.timestamp {
   #main-episode-navigator #previous-episode {
     border-right: 2px solid #314040;
   }
+}
+
+.episode-author {
+  text-align: center;
+}
+
+.episode-author img {
+  width: 200px;
+  margin-bottom: 1.0rem;
+}
+
+.episode-author p {
+  color: black;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.episode-author p.author-name {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+div.episode-notes a.show-more {
+  display: block;
+  width: auto;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  text-align: center;
+  color: #37becc;
+  padding: 5px 0;
+  font-size: 0.7rem;
+}
+
+dl.episode-stats {
+  margin-top: 2rem;
+}
+dl.episode-stats dd, dl.episode-stats dt {
+  display: inline-block;
+  float: left;
+}
+
+dl.episode-stats i {
+  font-size: 1.5rem;
+  width: 1rem;
+}
+
+dl.episode-stats dt {
+  clear: left;
+  margin-right: 1.75rem;
+}
+
+dl.episode-stats dd {
+  clear: right;
 }
