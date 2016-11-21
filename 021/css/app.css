@@ -29,7 +29,12 @@ body {
   font-weight: 800;
 }
 
-h3 {
+#video-detail #masthead h1 {
+  color: #37becc;
+  font-size: 1.25rem;
+}
+
+#overview h3 {
   color: #37becc;
   font-weight: 600;
   border-bottom: 1px solid #ccc;
@@ -102,7 +107,7 @@ h4 {
   font-weight: 600;
 }
 
-.episode p.timestamp {
+p.timestamp {
   font-weight: 900;
   color: #333;
 }
@@ -123,5 +128,74 @@ h4 {
   .view-more a.button {
     width: auto;
     padding: 1rem 2.5rem;
+  }
+}
+
+#main-video-player {
+  text-align: center;
+  margin-bottom: 0.7rem;
+}
+
+
+#main-video-player .episode-thumbnail img {
+  width: 100%;
+  border: 1px solid #314040;
+}
+
+#main-video-player .episode-thumbnail .icon-overlay {
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#main-video-player .episode-thumbnail .icon-overlay .fa-stack {
+  margin: 20% 0;
+  font-size: 2.5rem;
+}
+
+#main-video-description {
+  text-align: left;
+}
+
+#main-video-description {
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #314040;
+}
+
+#main-episode-navigator {
+  text-align: left;
+}
+
+#main-episode-navigator section {
+  margin-top: 1rem;
+}
+
+#main-episode-navigator h3 {
+  color: #777777;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border: none;
+  font-weight: bold;
+}
+
+#main-episode-navigator h2 {
+  color: #37becc;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+@media (max-width: 400px) {
+  #main-episode-navigator #previous-episode {
+    border-bottom: 2px solid #314040;
+  }
+}
+
+@media (min-width: 400px) {
+  #main-episode-navigator #previous-episode {
+    border-right: 2px solid #314040;
   }
 }
