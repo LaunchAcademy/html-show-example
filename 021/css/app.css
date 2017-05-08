@@ -202,6 +202,10 @@ p.timestamp {
   #main-episode-navigator #previous-episode {
     border-right: 2px solid #314040;
   }
+
+  #main-episode-navigator #next-episode {
+    margin-left: 4rem;
+  }
 }
 
 .episode-author {
